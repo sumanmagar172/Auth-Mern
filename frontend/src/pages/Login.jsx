@@ -35,7 +35,7 @@ const Login = () => {
     }
 
     try {
-      const url = 'https://auth-mern-backend-9x5m.onrender.com';
+      const url = 'https://auth-mern-backend-9x5m.onrender.com/auth/login';
       const response = await fetch(url, {
         method: "post",
         headers: {
